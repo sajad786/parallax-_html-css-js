@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/bg.jpg");
+}
+h1{
+    color:pink;
+}
+
+ul{
+    margin:0px;
+    padding:0px;
+    background-color: #333;
+    overflow:hidden;
+    list-style-type: none;
+    opacity:0.7;
+}
+
+li{
+    float:left; 
+}
+li a{
+    display:block;
+    text-decoration: none;
+    padding:10px 15px;
+    color:white;
+}
+
+.righty{
+    float:right;
+}
+
+li a:hover{
+    background-color: red;
+}
+.active{
+    background-color: red;
+}
+li a:active{
+    background-color:green;
+}
+#center{
+  position:relative;
+  margin-left:35%;
+}
